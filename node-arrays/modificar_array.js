@@ -25,16 +25,31 @@ frutas.unshift('uva');
 
 console.log(frutas);
 
-// com constante
-const nome = ['jhonatan','padua'];
+console.log(frutas.indexOf('morango'));
 
-nome.pop();
+//['uva','morango','tomate']
 
-nome.push('soare');
+frutas.splice(0,1);
 
-nome[0] = 'Priscilla';
+console.log(frutas);
 
-console.log(nome);
+
+// // com constante
+// const nome = ['jhonatan','padua'];
+
+// nome.pop();
+
+// nome.push('soare');
+
+// nome[0] = 'Priscilla';
+
+// console.log(nome);
+
+// nome.shift();
+
+// console.log(nome);
+
+
 
 
 
