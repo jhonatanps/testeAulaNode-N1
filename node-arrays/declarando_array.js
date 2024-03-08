@@ -14,6 +14,7 @@ console.log('Meu array simples ' + meuArray);
 // console.log(meuArray[1]);
 // console.log(meuArray[2]);
 
+
 for(let i = 0; i < meuArray.length; i++){
     console.log(meuArray[i]);
 }
